@@ -1,0 +1,122 @@
+.controlsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--color-card-bg);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    /* Pill shape */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 2rem;
+}
+
+.actionButtons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.btnMastered {
+    background-color: var(--color-accent-green);
+}
+
+.btnReview {
+    background-color: var(--color-accent-yellow);
+    color: #554400;
+    /* Darker text for contrast on yellow */
+}
+
+.centerActions {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.btnRecord {
+    background: transparent;
+    border: 2px solid #eee;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btnRecord:hover {
+    background: #f9f9f9;
+    border-color: #ddd;
+}
+
+.isRecording {
+    border-color: var(--color-accent-red);
+    color: var(--color-accent-red);
+    background: #fff5f5;
+    animation: pulseBorder 1.5s infinite;
+}
+
+@keyframes pulseBorder {
+    0% {
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(231, 76, 60, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+    }
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.btnNext {
+    background: transparent;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.btnNext:hover {
+    color: var(--color-accent-blue);
+}
+
+/* Tablet/Mobile tweaks */
+@media (max-width: 768px) {
+    .controlsContainer {
+        flex-direction: column;
+        border-radius: 20px;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
+    .actionButtons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .btn {
+        flex: 1;
+        justify-content: center;
+    }
+}

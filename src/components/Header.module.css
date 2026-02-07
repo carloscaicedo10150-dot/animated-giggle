@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.beeIcon {
+    font-size: 1.5rem;
+}
+
+.progressSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.progressBarContainer {
+    width: 100%;
+    max-width: 300px;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+}
+
+.progressBarFill {
+    height: 100%;
+    background-color: var(--color-accent-blue);
+    transition: width 0.3s ease;
+}
+
+.progressText {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+}
+
+.settingsButton {
+    background: none;
+    font-size: 1.5rem;
+    color: var(--color-text-secondary);
+    padding: 0.5rem;
+}
+
+.settingsButton:hover {
+    color: var(--color-text-primary);
+}
+
+.langToggle {
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 0.5rem 0.75rem;
+    border-radius: 20px;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.langToggle:hover {
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    color: var(--color-text-primary);
+}

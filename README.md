@@ -27,7 +27,7 @@
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/EchoMoji.git
+    git https://github.com/carloscaicedo10150-dot/animated-giggle
     cd EchoMoji
     ```
 

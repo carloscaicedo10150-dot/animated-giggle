@@ -2,8 +2,8 @@
 
 **EchoMoji** is a fun, interactive web-based language learning application designed for children. It helps kids learn vocabulary (Spanish 🇪🇸 & English 🇬🇧) using engaging flashcards, colorful emojis, and pronunciation practice.
 
-![EchoMoji Screenshot](<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8d6e57da-75c1-41ed-ad67-8ebd86f24fcb" />
-) 
+
+https://ibb.co/hJdw2KsY
 *(Note: Replace with actual screenshot)*
 
 ## ✨ Features
